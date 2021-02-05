@@ -5,7 +5,7 @@ const initState = {
 const weatherReducer = (state = initState, action) => {
   switch (action.type) {
     case 'FETCH_DATA':
-      return { ...state };
+      return { ...state, weatherInfo: action.payload.weatherInfo };
     default:
       return { ...state };
   }
