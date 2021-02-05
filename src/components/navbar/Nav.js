@@ -53,7 +53,7 @@ const Nav = () => {
 const Navbar = styled(motion.div)`
   background-color: #121212;
   color: #fff;
-  height: 80px;
+  height: 10vh;
   display: flex;
   justify-content: space-between;
   align-items: center;

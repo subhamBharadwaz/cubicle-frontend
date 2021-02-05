@@ -1,5 +1,5 @@
 const initState = {
-  weatherInfo: {},
+  weatherInfo: { weather: [], main: {}, clouds: {}, wind: {} },
 };
 
 const weatherReducer = (state = initState, action) => {
