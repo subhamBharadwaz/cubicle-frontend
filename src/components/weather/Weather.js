@@ -21,6 +21,10 @@ const StyledWeather = styled(motion.div)`
   height: 90vh;
   display: flex;
   justify-content: space-between;
+
+  @media (max-width: 48rem) {
+    flex-direction: column;
+  }
 `;
 
 export default Weather;

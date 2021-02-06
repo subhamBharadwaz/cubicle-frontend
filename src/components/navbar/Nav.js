@@ -72,6 +72,7 @@ const NavMenu = styled(motion.nav)`
   .menu-bars {
     margin-left: 20px;
   }
+  z-index: 100;
 `;
 
 export default Nav;

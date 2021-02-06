@@ -8,6 +8,24 @@ const GlobalStyle = createGlobalStyle`
   box-sizing: border-box;
 }
 
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-weight:300;
+}
+
+h1{
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 400; 
+}
+h2{
+  color: #ffffff;
+ 
+}
+h3{
+  color: #f7f7f7;
+  
+}
+
 ${'' /* Navbar */}
   .nav-menu {
     background-color: #272727;
