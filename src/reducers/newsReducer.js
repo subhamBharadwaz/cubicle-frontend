@@ -1,5 +1,5 @@
 const initState = {
-  topHeadlines: {},
+  topHeadlines: { articles: [], source: {} },
 };
 
 const newsReducer = (state = initState, action) => {
