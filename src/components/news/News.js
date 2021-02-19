@@ -24,6 +24,9 @@ const NewsStyle = styled.div`
 
 const Content = styled.div`
   padding: 7%;
+  @media (max-width: 48rem) {
+    padding: 7% 4%;
+  }
 `;
 
 export default News;

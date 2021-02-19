@@ -58,6 +58,15 @@ const Articles = styled(motion.div)`
       color: rgba(26, 133, 255, 0.89);
     }
   }
+  @media (max-width: 48rem) {
+    width: 90vw;
+    height: 25vh;
+    padding: 5 10px;
+    img {
+      width: 30%;
+      object-fit: cover;
+    }
+  }
 `;
 const Content = styled.div`
   display: flex;
@@ -71,8 +80,21 @@ const Content = styled.div`
   }
   h4,
   h5 {
-    margin-top: 1.5rem;
+    margin-top: 1%;
     font-size: 1rem;
+    color: #383838;
+  }
+  @media (max-width: 48rem) {
+    margin-top: 0.5rem;
+    margin-left: 34%;
+    h2 {
+      font-size: 1rem;
+    }
+    h4,
+    h5 {
+      font-size: 0.9rem;
+      margin-top: 0.6rem;
+    }
   }
 `;
 
