@@ -2,6 +2,27 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# API sources:
+
+## 1. https://newsapi.org/ for news
+
+## 2. https://openweathermap.org/ for weather
+
+#
+
+## Get your api keys from the above sites. After that, create an ".env" file in the root directory and set them with variables.
+
+## Example:
+
+```js
+REACT_APP_WEATHER_API = api_key;
+REACT_APP_NEWS_API = api_key;
+```
+
+### change api_key with your api keys
+
+#
+
 ## Available Scripts
 
 In the project directory, you can run:
